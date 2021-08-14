@@ -1,21 +1,25 @@
 <html>
-  <head>
-    <title>Welcome</title>
-    <style>
-      a{
-        text-align: center;
-        background-color: white;
-        position: fixed;
-        height: 100%;
-        width: 100%;
-        z-index: 9999;
-        margin: 10px auto 20px;
-        display: block;
-        top: 0;
-        right: 0;
-      }
-  </head>
-  <body>
-    <a href="/web/index.html">Secure Personalized Web Search</a>
-  </body>
+<body>
+  <a href="https://mibiliyaz.github.io/spws/web/index.html"><center><h1>Secure Personalized Web Search (SPWS)</h1></center></a>
+SPWS has shown its viability in enhancing the nature of different pursuit benefits on the Internet. In any case, prove demonstrates that clients' hesitance to uncover their private data amid the hunt has turned into a noteworthy hindrance for the wide expansion of PWS. We consider security insurance in PWS applications that model client inclinations as progressive client profiles. We propose a PWS structure called UPS that can adaptively sum up profiles by questions while regarding client indicated protection prerequisites. Our runtime speculation goes for striking a harmony between two prescient measurements that assess the utility of personalization and the security danger of uncovering the summed up profile. We introduce two eager calculations, to be specific Greedy DP and Greedy IL, for runtime speculation. We additionally give an online expectation instrument to choosing whether customizing a question is helpful. Broad investigations exhibit the adequacy of our system. The trial comes about likewise uncover that Greedy IL essentially outflanks Greedy DP as far as productivity.
+Technologies Used: Java, HTML, PHP, JS, SQL
+<h1>•	Admin</h1>
+In this module, the Admin has to login by using valid user name and password. After login successful he can do some operations such as add contents, view all contents, list all searching history, list ranking of images, list of all personalized search, attacker details, recover contents, list of all user  and logout. 
+<h3>Add contents:</h3> In this module, the admin can add n-number of contents. If the admin want to add a new content, then admin will enter a URL, domain, title, description, uses, related images of the particular content ,then submit and that data will stored in data base. If admin want view to the newly added content, then click on view contents button, it will display the all contents & with their tags, the initially rank will be zero.
+<h3>List of users:</h3> In this module, the Admin can view list of all users. Here all register users are stored with the details such as user ID, user name, E mail ID, mobile no, Location, date of birth, address, pin code, general key and personalized key.
+<h3>View list all searching history:</h3> This is controlled by admin; the admin can view the all searching history. If admin clicks on search history button, then the server will display the all searching history with their tags such as user name, key word used, field searched, time & date.
+<h3>Attacker details:</h3> In this module, the admin can view the attacker details. If admin clicks on attacker details button, the admin will get attacker information with their tags such as attacker name, attacked content URL and attacked content ID. After attacking content, the admin will recover the content.
+
+<h1>•	User</h1>
+In this module, there are n numbers of users are present. User should register before doing some operations.  After registration successful he has to login by using authorized user name and password. Login successful he will do some operations such as view my details, query search, personalized search, personalized search comparisons, attack content details, request for general key, request for personalized key and logout. If user clicks on my details button, then the server will give response to the user with their tags such as user ID, name, mobile no, address, pin code and email ID.
+<h3>Query Search:</h3> In this module, the user can search query. Before searching any query, the user should request general key, then admin will provide a general key. Then enter general key, select field to search, enter key word and search, it will display all related contents with their tags. After searching a content rank will be increased.
+<h3>Personalized Search:</h3> In this module, the user can search contents. Before searching contents, the user should request personalized key, then admin will provide personalized key, then enter key and enter keyword, then user will get a related contents with their tags. After searching content the rank will be increased.
+<h3>Personalized Search Comparison:</h3> In this module, the user can view the comparison between greedy DP & greedy IL. After personalized searching, the greedy IL will be generated. If the user clicks on personalized search button, it will display all personalized search details with their tags such as user name, keyword used, date, time, using greedy DP and using greedy IL.
+
+<h1>•	Time delay Generation chart</h1>
+In this module, we can view the time delay Generation chart results. This chart shows the time delay by using greedy DP and time delay using greedy IP. After viewing or search the content, rank will be increased and also the time delay will be display, the time variation can be shown in this chart.
+
+<h1>•	Attack content</h1>
+In this module, user can attack contents, and then user should enter content URL to attack, then user will get all information about content, then user can add malicious data and click on attack button. After attacking successful, the attacker details will send to admin.
+</body>
 </html>
